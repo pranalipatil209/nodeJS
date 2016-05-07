@@ -1,0 +1,6 @@
+var multer = require('multer');
+
+
+app.use(multer({
+    dest: “./uploads/”
+}));

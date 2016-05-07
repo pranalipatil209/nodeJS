@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <title>Image Upload Using multer</title>
+</head>
+<body>
+    <form id="uploadForm" action="/api/photo" enctype="multipart/form-data"
+          method="post">
+        <input type="file" name="userPhoto" multiple/>
+        <input type="submit" value="upload image" name="submit">
+        <span id="status"></span>
+    </form>
+</body>
+</html>
